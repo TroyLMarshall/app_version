@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "app_version"
-  s.version     = "0.2.4"
+  s.version     = "0.2.5"
   s.authors     = ["Scott Curry", "Stephen Kapp", "Phillip Toland"]
   s.email       = ["coder.scottcurry.com", "mort666@virus.org", "phil.toland@gmail.com"]
   s.homepage    = "https://github.com/mort666/app_version"
@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib,tasks}/**/*"] + ["Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2"
+  s.add_dependency "rails", ">= 4.2"
 end
